@@ -5,11 +5,11 @@ import random
 class Food(Turtle):  # inherits from Turtle class
     def __init__(self):
         super().__init__()
-        self.shape("circle")  # shape of food
-        self.penup()  # so the turtle doesn't draw
-        self.shapesize(stretch_len=0.5, stretch_wid=0.5)  # makes it smaller
+        self.shape("circle")
+        self.penup()
+        self.shapesize(stretch_len=0.5, stretch_wid=0.5)
         self.color("blue")
-        self.speed("fastest")  # so we don't see the food being created
+        self.speed("fastest")
         self.refresh()
 
     def refresh(self):  # food goes to a random location on the screen

@@ -9,7 +9,7 @@ screen = Screen()
 screen.setup(width=600, height=600)
 screen.bgcolor("black")
 screen.title("Snake Game")
-screen.tracer(0)  # turns the turtle animation off
+screen.tracer(0)  # turns the screen animations off
 
 #  creates the snake, food and scoreboard objects
 snake = Snake()
@@ -49,4 +49,4 @@ while game_is_on:
             scoreboard.game_over()
 
 
-screen.exitonclick()  # so the window stays open
+screen.exitonclick()

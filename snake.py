@@ -28,6 +28,9 @@ class Snake:
         new_segment.goto(position)
         self.segments.append(new_segment)
 
+    def reset(self):
+
+
     def extend(self):
         """Increases the length of the snake by one segment and adds it to the end of the snake"""
         self.add_segment(self.segments[-1].position())
